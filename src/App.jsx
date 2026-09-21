@@ -287,7 +287,7 @@ function App() {
 
   return (
     <div className="crm-app">
-      <DashboardHeader stats={stats} />
+      <DashboardHeader stats={stats} contacts={contacts} />
 
       <div className="toolbar">
         <SearchBar value={searchTerm} onChange={setSearchTerm} onClear={() => setSearchTerm('')} />
